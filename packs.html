@@ -5,8 +5,13 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- CSS stylesheet link -->
         <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+        
+        <!-- Font Awesome Kit -->
+        <script src="https://kit.fontawesome.com/9454b23787.js"></script>
 
+        <!-- Favicon for browser tab to display -->
         <link rel="icon" type="image/png" href="resources/images/web-icon.png" sizes="32x32">
     </head>
 
@@ -16,17 +21,173 @@
             <ul class="menubar">
                 <li class="menubutton"><a href="index.html">Home</a></li>
                 <li class="curloc"><a href="packs.html">Data Packs</a></li>
-                <li class="menubutton"><a href="#">About</a></li>
-                <li class="menubutton"><a href="https://www.youtube.com/channel/UCB0-AMhAOC4VHu9pP-GyYEw"><img src="resources/images/yt-logo.png" alt="YouTube" height=19px></a></li>
-                <li class="menubutton"><a href="https://www.twitch.tv/darkwaterkiller/"><img src="resources/images/Glitch_White_RGB.png" alt="Twitch" height=19px></a></li>
+                <li class="menubutton"><a href="about.html">About</a></li>
+                <li class="menubutton"><a href="https://www.youtube.com/channel/UCB0-AMhAOC4VHu9pP-GyYEw"><i class="fab fa-youtube"></i></a></li>
+                <li class="menubutton"><a href="https://www.twitch.tv/darkwaterkiller/"><i class="fab fa-twitch"></i></a></li>
+                <li class="menubutton"><a href="https://discord.gg/MACv3z9"><i class="fab fa-discord"></i></a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="packsbody">
-                <p>
-                    This is the initial set up of the page I'm linking all my downloads to.
-                </p>
+                <div id="dinfo">
+                    <h1>
+                        Here you can download most of the data packs that DarkwaterKiller has made in his videos.<br>
+                        All download links currently take you to a Dropbox page where you can download the selected pack.
+                    </h1>
+                    <br>
+                    <h2>
+                        For more information on each pack, hover your mouse over the "<i class="fa fa-question"></i>" icon.
+                    </h2>
+                    <p id="dlhelp">
+                        <b>Attention:</b> To install a data pack in your world, simply download the data pack and put the downloaded zip file in your world's "datapacks" folder. If you still need help, click <a href="#">here</a>.
+                    </p>
+                </div>
+                
+                <hr style="width: 90%;">
+
+                <div class = "dllist">
+                    <div class = "entry" id = "hheal">
+                        <h2>Harder Healing</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    Make restoring health harder. Now, you have to eat certain foods to<br>
+                                    replenish your health. Adds a nice challenge to survival gameplay.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+                    
+                    <div class = "entry" id = "silkspawn">
+                        <h2>Silk Touch Spawners</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    Pick up any monster spawner using a silk touch pickaxe. You can place<br>
+                                    it anywhere in the world. Great for making xp farms <i>just right</i>.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+                    
+                    <div class = "entry" id = "dgolem">
+                        <h2>Diamond Golem Boss</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    Fight a brand new boss in Minecraft. Rename an iron golem to <br>
+                                    "Diamond Golem", and prepare to get rekt. Fun if you've killed <br>
+                                    the Wither 50,000,000 times already.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+                    
+                    <div class = "entry" id = "effectblock">
+                        <h2>Effect on Block</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    A proof-of-concept data pack. Run specific functions whenever<br>
+                                    a player walks on a specific block. Feel free to modify it and<br>
+                                    create something new.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+                    
+                    <div class = "entry" id = "magice">
+                        <h2>Magma Ice</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    Magma blocks now work similarly to ice, except well... <br><br>
+                                    <i>lava-ier</i>.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+                    
+                    <div class = "entry" id = "elevator">
+                        <h2>Elevators</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    This one is pretty trash. Makes beacons placed a specific<br>
+                                    distance above one another work kind of like an OpenBlocks<br>
+                                    elevator. Just watch <a href="#">this video</a> for a better explaination.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+
+                    <div class = "entry" id = "lgpotion">
+                        <h2> Low Gravity Potion</h2>
+                        <div class = "dropdown">
+                            <button class="btn">
+                                <i class="fa fa-question"></i>
+                            </button>
+                            <div class = "dropdown-content">
+                                <p>
+                                    Throw a bottle, netherwart, slimeball, and feather into<br>
+                                    a cauldron with water to craft a low gravity potion. 
+                                    <div id="fineprint">
+                                        This one was made during a live-stream o_0
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="dlbtn" href="#"><i class="fab fa-dropbox"></i> Download</a>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
             </div>
         </div>
     </body>

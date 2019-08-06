@@ -6,10 +6,10 @@
     padding-left: 20px;
     overflow: hidden;
 
-    position: fixed;
     width: 100%;
 
     z-index: 1;
+    text-shadow: 3px 2px 3px #152736;
 }
 
 .titletext {

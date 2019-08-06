@@ -1,0 +1,92 @@
+#dinfo {
+    cursor: default;
+}
+
+#dlhelp a {
+    color: #9cf;
+    text-decoration-color: #9cf;
+}
+
+#dlhelp b {
+    color: red;
+}
+
+.dllist {
+    display: table;
+    table-layout: fixed;
+    min-width: 800px;
+}
+
+.entry {
+    display: block;
+    margin: 10px 0;
+    padding: 3px;
+    padding-bottom: 10px;
+    border-bottom: #c4c2bf 1px solid;
+}
+
+.entry h2 {
+    padding-left: 5px;
+    padding-bottom: 6px;
+    cursor: default;
+}
+
+h2 i {
+    font-size: 16px;
+}
+
+.dlbtn {
+    text-decoration: none;
+    padding: 4px 6px;
+    background-color: dodgerblue;
+    color: #f5f3ef;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.dlbtn:hover {
+    background-color: #0074e4;
+
+}
+
+.btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #f5f3ef;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #505050;
+    z-index: 2;
+    min-width: 400px;
+    font-size: 18px;
+}
+
+.dropdown-content p a {
+    text-decoration: none;
+    color: #9cf;
+}
+
+.dropdown-content p {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+#fineprint {
+    font-size: 12px;
+    margin-left: 16px;
+}

@@ -1,4 +1,5 @@
 @import 'titlebar.css';
+@import 'downloads.css';
 @import url('https://fonts.googleapis.com/css?family=Blinker|Patrick+Hand|Permanent+Marker&display=swap');
 
 /* Reset margins and padding of all elements for a default browser base */
@@ -14,13 +15,14 @@ body, html {
     background-color: #333333;
 
     height: 100%;
+    overflow-x: hidden;
 }
 
 .main {
-    position: relative;
-    top: 140px;
+    /*position: relative;
+    top: 140px;*/
 
-    margin-left: 15px;
+    margin: 10px 15px;
     padding-bottom: 25px;
 
     z-index: 0;
