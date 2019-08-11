@@ -1,0 +1,36 @@
+#dl-redir {
+    text-align: center;
+    border: 2px solid #f5f3ef;
+    padding: 4px;
+}
+
+#flashy-dl-btn {
+    font-size: 28px;
+    text-decoration: none;
+    color:#f5f3ef;
+    /*border: 2px solid #f5f3ef;*/
+    margin: 2px;
+    text-align: center;
+    transition: all 0.25s ease-in;
+}
+
+#flashy-dl-btn:hover {
+    color: #8c8c8c;
+}
+
+#flashy-dl-btn i {
+    margin: 1px 5px;
+}
+
+#tl-arr, #br-arr {
+    transform: rotate(45deg);
+}
+
+#tr-arr, #bl-arr {
+    transform: rotate(-45deg);
+}
+
+#bottom {
+    position: static;
+    bottom:0;
+}
